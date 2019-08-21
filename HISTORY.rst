@@ -142,6 +142,8 @@ Pending
 * Fixed some features to work when there are non-MySQL databases configured
 * Fixed ``JSONField`` to allow control characters, which MySQL does - but not
   in a top-level string, only inside a JSON object/array.
+* Fixed syntax error when index hint used on an aliased table
+* Index hints apply to the correct table entry in nested queries
 
 1.0.8 (2016-04-08)
 ------------------
